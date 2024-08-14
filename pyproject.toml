@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "necromancer"
+version = "0.1.0"
+description = "(Re)animating a Walmart skeleton with Raspberry Pi and computer vision."
+authors = ["Frank Matranga <thefrankmatranga@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["standard"], version = "^0.112.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
